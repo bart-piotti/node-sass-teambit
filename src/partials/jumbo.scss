@@ -1,11 +1,10 @@
-main {
-    padding-top: 100px;
-}
-
 .jumbo {
     display: flex;
 }
 
+main section:first-child {
+    margin: 90px 0;
+}
 .jumbo_left {
     width: 45%;
     color: $text_color;

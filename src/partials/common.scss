@@ -6,3 +6,11 @@
     width: $container_width;
     margin: auto;
 }
+
+section {
+    margin: $std_sect_margin;
+}
+
+main {
+    padding-top: 100px;
+}

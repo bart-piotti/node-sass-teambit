@@ -31,7 +31,11 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
 }
 
 /* Grouping content
@@ -382,14 +386,21 @@ button:focus {
   margin: auto;
 }
 
+section {
+  margin: 130px 0;
+}
+
+main {
+  padding-top: 100px;
+}
+
 header {
   height: 75px;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #8282829e;
   position: fixed;
-  width: 1150px;
-  margin-left: calc((100vw - 1150px) / 2);
+  width: 100%;
   background-color: white;
 }
 
@@ -401,6 +412,7 @@ header {
   height: 100%;
   align-items: center;
   margin: 0;
+  margin-left: 25px;
   padding: 0;
 }
 
@@ -436,12 +448,12 @@ header {
   transition-duration: 0.6s;
 }
 
-main {
-  padding-top: 100px;
-}
-
 .jumbo {
   display: flex;
+}
+
+main section:first-child {
+  margin: 90px 0;
 }
 
 .jumbo_left {
@@ -504,5 +516,66 @@ main {
 
 .jumbo_right img {
   width: 100%;
+}
+
+.teamwork {
+  background-color: #FFE7D2;
+  margin: 0;
+}
+
+.teamwork .container {
+  width: 850px;
+  border-bottom: 1px solid rgba(5, 5, 5, 0.5);
+}
+
+.teamwork h2 {
+  font-size: 26px;
+  color: #58402c;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.teamwork .tw_pics {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.teamwork .tw_pics .pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 15%;
+  color: #58402c;
+  text-align: center;
+}
+
+.teamwork .tw_pics .pic img {
+  width: 100%;
+}
+
+.teamwork .img_wrap {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.teamwork .img_wrap img {
+  width: 300px;
+}
+
+.tw2 .container {
+  border-bottom: 0;
+}
+
+.tw2 .pic.special img {
+  width: 50%;
+  align-self: center;
+}
+
+.tw2 .how_works {
+  text-align: center;
+  color: #58402c;
+  font-size: 26px;
+  padding-bottom: 50px;
 }
 
