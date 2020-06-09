@@ -1,0 +1,52 @@
+.lm_container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.lm_container.dx {
+    justify-content: flex-end;
+}
+
+.img_wrap {
+    width: 55%;
+    margin-right: 20px;
+
+        img {
+            width: 100%;
+        }
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding-top: 15px;
+
+        h3 {
+            font-size: 26px;
+            color: $text_color;
+            margin: 0;
+        }
+
+        p {
+            font-size: 22px;
+            color: $text_color;
+            line-height: 40px;
+            margin: 0;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        span {
+            font-size: 25px;
+            color: $butt_color;
+            cursor: pointer;
+        }
+
+        img {
+            width: 245px;
+            align-self: center;
+            padding-top: 20px;
+        }
+}

@@ -554,12 +554,12 @@ main section:first-child {
   width: 100%;
 }
 
-.teamwork .img_wrap {
+.teamwork .img_wrapper {
   text-align: center;
   padding-bottom: 100px;
 }
 
-.teamwork .img_wrap img {
+.teamwork .img_wrapper img {
   width: 300px;
 }
 
@@ -577,5 +577,58 @@ main section:first-child {
   color: #58402c;
   font-size: 26px;
   padding-bottom: 50px;
+}
+
+.lm_container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.lm_container.dx {
+  justify-content: flex-end;
+}
+
+.img_wrap {
+  width: 55%;
+  margin-right: 20px;
+}
+
+.img_wrap img {
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding-top: 15px;
+}
+
+.info h3 {
+  font-size: 26px;
+  color: #58402c;
+  margin: 0;
+}
+
+.info p {
+  font-size: 22px;
+  color: #58402c;
+  line-height: 40px;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.info span {
+  font-size: 25px;
+  color: #30488f;
+  cursor: pointer;
+}
+
+.info img {
+  width: 245px;
+  align-self: center;
+  padding-top: 20px;
 }
 
